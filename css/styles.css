@@ -1,0 +1,94 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px !important;
+}
+
+/* End for testing */
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* Nav styles ---------------- */
+
+.nav img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 10px;
+}
+
+.nav {
+  overflow: auto;
+}
+.nav h2 {
+  float: left;
+  padding-left: 10px;
+}
+
+.navLinks {
+  float: right;
+  padding-top: 25px;
+}
+
+.navLinks span {
+  margin-left: 15px;
+}
+
+/* Header  styles ---------------- */
+.header {
+  clear: both;
+  overflow: auto;
+}
+
+.header .description {
+  color: gray;
+  margin-top: 10%;
+  line-height: 20px;
+  width: 49%;
+  float: left;
+}
+
+.header img {
+  float: right;
+  width: 35%;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Content styles ---------------- */
+
+.columns {
+  float: left;
+  width: 32%;
+  border: 1px solid red;
+  margin: 1% 1% 1% 0;
+}
+
+.content {
+  overflow: auto;
+}
+
+#col1 img {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  display: block;
+  /*align-items: center;
+  color: #C93539;
+  border-radius: 10px;*/
+}
