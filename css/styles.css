@@ -42,6 +42,10 @@
 
 .navLinks span {
   margin-left: 15px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
 }
 
 /* Header  styles ---------------- */
@@ -136,5 +140,75 @@ p {
   }
   #col2, #col3 {
     width: 49%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .header .description {
+    margin-top: 5%;
+    font-size: .8em;
+    width: 51%;
+  }
+  .header img {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .navLinks {
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+  .navLinks span {
+    display: inline-block;
+    margin: 0;
+    width: 20%;
+  }
+  .header {
+    padding-top: 3%;
+  }
+  .header .description {
+    float: none;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .header img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+  #col1 .image{
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 4%;
+  }
+  .columns {
+    float: none;
+    margin: 0 auto;
+  }
+
+  #col2, #col3 {
+    width: 95%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+  #col3 img{
+    width: 24%;
+    height: auto;
+  }
+  #col3 .exampleText {
+    width: 75%;
+  }
+  #midExample .exampleText {
+    float: none;
+  }
+  #col3 #midExample img {
+    float: right;
+    width: 24%;
+    height: auto;
   }
 }
