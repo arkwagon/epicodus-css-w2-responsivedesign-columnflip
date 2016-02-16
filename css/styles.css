@@ -2,7 +2,7 @@
 
 *:not(body):not(html) {
   box-sizing:border-box;
-  border:1px dashed #000;
+  /*border:1px dashed #000;*/
 }
 
 .columns {
@@ -75,20 +75,44 @@ img {
 .columns {
   float: left;
   width: 32%;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: 1% 1% 1% 0;
+  padding: 1%;
 }
 
 .content {
   overflow: auto;
 }
 
-#col1 img {
-  width: 200px;
-  height: 100px;
+.image {
+  width: 95%;
+  height: 175px;
   overflow: hidden;
   display: block;
-  /*align-items: center;
-  color: #C93539;
-  border-radius: 10px;*/
+  margin-bottom: 5%;
+}
+
+#col3 img {
+  height: 50px;
+  float: left;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.col3example {
+  overflow: auto;
+  margin-bottom: 7%;
+}
+
+#col3 .exampleText {
+  float: left;
+  width: 85%;
+  padding-left: 10px;
 }
