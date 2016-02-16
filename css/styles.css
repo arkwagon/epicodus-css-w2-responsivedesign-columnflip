@@ -50,6 +50,10 @@
   overflow: auto;
 }
 
+.header p {
+  font-size: 1.2em;
+}
+
 .header .description {
   color: gray;
   margin-top: 10%;
@@ -86,7 +90,7 @@ img {
 
 .image {
   width: 95%;
-  height: 175px;
+  height: 170px;
   overflow: hidden;
   display: block;
   margin-bottom: 5%;
@@ -115,4 +119,22 @@ p {
   float: left;
   width: 85%;
   padding-left: 10px;
+}
+
+/* MEDIA QUERIES---------------- */
+
+@media screen and (max-width: 1400px) {
+  #col1 {
+    overflow: auto;
+    float: none;
+    width: 100%;
+  }
+  #col1 .image {
+    float: left;
+    width: 31%;
+    margin: 1%;
+  }
+  #col2, #col3 {
+    width: 49%;
+  }
 }
